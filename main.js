@@ -25,4 +25,4 @@ WebApp.enableClosingConfirmation();
 // Create the WalletConnect modal
 createWalletConnectModal();
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(_jsx(React.StrictMode, { children: _jsx(Provider, { store: store, children: _jsx(TonConnectUIProvider, { manifestUrl: "https://softstack.github.io/telegram-mini-app/tonconnect-manifest.json", children: _jsx(App, {}) }) }) }));
+root.render(_jsx(React.StrictMode, { children: _jsx(Provider, { store: store, children: _jsx(TonConnectUIProvider, { manifestUrl: "ht/ps://softstack.github.io/telegram-mini-app/", children: _jsx(App, {}) }) }) }));
